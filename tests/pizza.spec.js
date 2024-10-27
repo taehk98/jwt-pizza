@@ -273,7 +273,6 @@ test('verify order', async ({ page }) => {
   await page.getByRole('button', { name: 'Verify' }).click();
   await expect(page.getByRole('heading', { name: 'JWT Pizza' })).toBeVisible();
 });
-
 });
 
 test('test dinerDashboard', async ({ page }) => {
