@@ -22,6 +22,7 @@ const bucket = new s3.Bucket(this, 'MyBucket', {
   versioned: true,
   removalPolicy: RemovalPolicy.DESTROY,
 });
+```
 
 ### 2. **Synthesis**
 Once the infrastructure is defined in code, AWS CDK translates this code into a CloudFormation template. This step is referred to as **synthesis**. The synthesized CloudFormation template is a declarative file (JSON or YAML) that AWS CloudFormation can interpret and use to create and manage the specified resources.
@@ -39,7 +40,7 @@ const bucket = new s3.Bucket(this, 'MyBucket', {
   versioned: true,
   removalPolicy: RemovalPolicy.DESTROY,
 });
-
+```
 ---
 
 ## Key Features
