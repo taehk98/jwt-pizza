@@ -80,5 +80,10 @@ The example demonstrates creating a serverless web application with an API Gatew
 - **Version Management**: Ensure compatibility between CDK versions and AWS service updates.
 - **Debugging**: Identifying and resolving deployment errors can be challenging.
 
+---
+
+## Practice
+In the 340 milestone, I was tasked with creating 12 API Gateways and Lambda functions on my own. By using AWS CDK, I was able to define and deploy all the resources efficiently. When it came time to make modifications and redeploy, the process was incredibly straightforward and seamless, allowing for quick updates and ensuring that the infrastructure remained consistent and easy to manage.
+
 ## Conclusion:
 AWS CDK revolutionizes cloud infrastructure management by enabling developers to define resources programmatically. It simplifies DevOps processes, improves efficiency, and aligns infrastructure management with modern development workflows.
